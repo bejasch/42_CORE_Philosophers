@@ -6,7 +6,7 @@
 /*   By: bschneid <bschneid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/29 15:37:57 by bschneid          #+#    #+#             */
-/*   Updated: 2024/07/12 12:45:55 by bschneid         ###   ########.fr       */
+/*   Updated: 2024/07/12 12:57:10 by bschneid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 # include <stdio.h>
 # include <limits.h>
 
-typedef enum {
+typedef enum s_action {
 	FORK,
 	EAT,
 	SLEEP,
